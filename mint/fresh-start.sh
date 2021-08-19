@@ -27,6 +27,8 @@ echo 'alias tempcheck="vcgencmd measure_temp"' << /home/radpivm/.bashrc
 mkdir /home/radpivm/scripts
 mkdir /home/radpivm/projects
 mkdir /home/radpivm/setup
+mkdir /scripts
+
 
 ##extra programs##
 
