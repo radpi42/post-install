@@ -19,6 +19,7 @@ echo 'alias cleanup="sudo apt autoremove -y"' << /home/radpivm/.bashrc
 echo 'alias basicmaint="updater && cleanup"' << /home/radpivm/.bashrc
 echo 'alias myname="hostname -I"' << /home/radpivm/.bashrc
 echo 'alias tempcheck="vcgencmd measure_temp"' << /home/radpivm/.bashrc
+#fixed
 
 
 ##extra programs##
