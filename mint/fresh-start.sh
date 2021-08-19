@@ -10,15 +10,15 @@ apt install -y python3 python3-pip python3-venv git pipenv idle3
 
 #set up alias#
 
-echo 'alias updater="sudo apt update && sudo apt upgrade -y"'
-echo 'alias installer="sudo apt install -y"'
-echo 'alias uninstaller="sudo apt purge -y"'
-echo 'alias myip="ip -br addr"'
-echo 'alias makerun="sudo chmod +x"'
-echo 'alias cleanup="sudo apt autoremove -y"'
-echo 'alias basicmaint="updater && cleanup"'
-echo 'alias myname="hostname -I"'
-echo 'alias tempcheck="vcgencmd measure_temp"'
+echo 'alias updater="sudo apt update && sudo apt upgrade -y"' << /home/radpivm/.bashrc
+echo 'alias installer="sudo apt install -y"' << /home/radpivm/.bashrc
+echo 'alias uninstaller="sudo apt purge -y"' << /home/radpivm/.bashrc
+echo 'alias myip="ip -br addr"' << /home/radpivm/.bashrc
+echo 'alias makerun="sudo chmod +x"' << /home/radpivm/.bashrc
+echo 'alias cleanup="sudo apt autoremove -y"' << /home/radpivm/.bashrc
+echo 'alias basicmaint="updater && cleanup"' << /home/radpivm/.bashrc
+echo 'alias myname="hostname -I"' << /home/radpivm/.bashrc
+echo 'alias tempcheck="vcgencmd measure_temp"' << /home/radpivm/.bashrc
 
 
 ##extra programs##
