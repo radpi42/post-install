@@ -1,5 +1,7 @@
 #!/bin/sh
 
+#post install script for linux mint
+
 #install and update#
 
 apt update
