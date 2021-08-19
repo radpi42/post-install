@@ -2,7 +2,7 @@
 
 #post install script for linux mint
 
-#install and update#
+#install essentials and update#
 
 apt update
 apt install -y open-vm-tools open-vm-tools-desktop
@@ -22,6 +22,12 @@ echo 'alias myname="hostname -I"' << /home/radpivm/.bashrc
 echo 'alias tempcheck="vcgencmd measure_temp"' << /home/radpivm/.bashrc
 
 
+# make directories 
+
+mkdir /home/radpivm/scripts
+mkdir /home/radpivm/projects
+mkdir /home/radpivm/setup
+
 ##extra programs##
 
 #brave
@@ -29,3 +35,4 @@ apt install -y apt-transport-https curl && sudo curl -fsSLo /usr/share/keyrings/
 
 #brostrend wifi
 sh -c 'wget deb.trendtechcn.com/install -O /tmp/install && sh /tmp/install'
+
