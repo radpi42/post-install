@@ -5,7 +5,7 @@
 #install essentials and update#
 
 apt update
-apt install -y open-vm-tools open-vm-tools-desktop
+apt install -y open-vm-tools open-vm-tools-desktop qemu-guest-agent
 apt upgrade -y
 apt install -y tmux python3 python3-pip git ncdu caffeine guake remmina openssh-server xrdp dkms bc dnsutils net-tools build-essential gcc make perl apt-transport-https curl samba samba-common-bin cifs-utils python3 python3-pip python3-venv git pipenv idle3
 
