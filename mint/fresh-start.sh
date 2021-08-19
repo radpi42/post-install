@@ -5,8 +5,7 @@
 apt update
 apt install -y open-vm-tools open-vm-tools-desktop
 apt upgrade -y
-apt install -y tmux python3 python3-pip git ncdu caffeine guake remmina openssh-server xrdp dkms bc dnsutils net-tools build-essential gcc make perl apt-transport-https curl samba samba-common-bin cifs-utils 
-apt install -y python3 python3-pip python3-venv git pipenv idle3
+apt install -y tmux python3 python3-pip git ncdu caffeine guake remmina openssh-server xrdp dkms bc dnsutils net-tools build-essential gcc make perl apt-transport-https curl samba samba-common-bin cifs-utils python3 python3-pip python3-venv git pipenv idle3
 
 #set up alias#
 
@@ -19,7 +18,6 @@ echo 'alias cleanup="sudo apt autoremove -y"' << /home/radpivm/.bashrc
 echo 'alias basicmaint="updater && cleanup"' << /home/radpivm/.bashrc
 echo 'alias myname="hostname -I"' << /home/radpivm/.bashrc
 echo 'alias tempcheck="vcgencmd measure_temp"' << /home/radpivm/.bashrc
-#fixed
 
 
 ##extra programs##
